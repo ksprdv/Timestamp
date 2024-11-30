@@ -7,7 +7,7 @@ class Mode:
         timestamp = int(date.timestamp())
         print('Timestamp:', timestamp)
 
-    def GetTimestampToDate(result=False):
+    def GetTimestampToDate():
         date = input('Введите дату через точку >> ')
         date = date.split('.')
         date = [int(i) for i in date]
